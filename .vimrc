@@ -118,5 +118,3 @@ nmap <C-o> o<C-[>
 :vmap c :s/^/# /<CR>
 :vmap C :s/^# //<CR>
 :vmap <tab> :s/^/<tab>/
-" remove trailing whitespace
-:nmap rt :%s/ *$//
