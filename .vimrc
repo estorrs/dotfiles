@@ -115,8 +115,8 @@ nnoremap L 5l
 nmap <C-O> O<C-[>
 nmap <C-o> o<C-[>
 	
-:vmap c :s/^/# /<CR>
-:vmap C :s/^# //<CR>
-:vmap <tab> :s/^/<tab>/
-" remove trailing whitespace
-:nmap rt :%s/ *$//
+:vmap <C-j> :s/^/## /<CR>
+:vmap <C-k> :s/^## //<CR>
+
+:vmap <C-h> :s/^    //<CR>
+:vmap <C-l> :s/^/    /<CR>
