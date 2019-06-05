@@ -115,8 +115,8 @@ nnoremap L 5l
 nmap <C-O> O<C-[>
 nmap <C-o> o<C-[>
 	
-:vmap <C-j> :s/^/## /<CR>
-:vmap <C-k> :s/^## //<CR>
+:vmap <C-k> :s/^/## /<CR>
+:vmap <C-j> :s/^## //<CR>
 
 :vmap <C-h> :s/^    //<CR>
 :vmap <C-l> :s/^/    /<CR>
